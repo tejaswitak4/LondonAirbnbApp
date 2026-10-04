@@ -11,7 +11,7 @@ def load_model_results():
     """Dynamically loads real PySpark JSON output from the local output folder, with fallback."""
     try:
         # Looking one level up since you are using Option 2 (App/ folder structure)
-        search_path = os.path.join("..", "output", "task2", "part-*.json")
+        search_path = "part-*.json"
         files = glob.glob(search_path)
         if files:
             df = pd.read_json(files[0], lines=True)
