@@ -1,0 +1,3 @@
+{"Model":"Baseline (Mean)","RMSE":440.2285168545749,"MAE":142.8974847759749,"Training_Time_Sec":0.0}
+{"Model":"Linear Regression","RMSE":429.8555249377505,"MAE":123.65896943199145,"Training_Time_Sec":1.6591136455535889}
+{"Model":"Random Forest (Tuned)","RMSE":381.73080452075,"MAE":102.32797033626532,"Training_Time_Sec":57.24672865867615}
